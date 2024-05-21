@@ -7,7 +7,6 @@ import OurService from "./OurService";
 const Home = () => {
   return (
     <div>
-      <h2 className="text-4xl text-orange-500">This is Home</h2>
       <div>
         <Banner></Banner>
       </div>
