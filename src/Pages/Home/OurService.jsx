@@ -1,4 +1,5 @@
 import doctor from "../../assets/image/pexels-cottonbro-5722162.jpg";
+import gastrology from "../../assets/image/images.jpeg";
 const OurService = () => {
   return (
     <div>
@@ -20,7 +21,7 @@ const OurService = () => {
             <br />
             <button className="btn bg-orange-500">Oral Surgery</button>
           </div>
-          <img src="" alt="" />
+          <img src={gastrology} alt="" />
           <h2 className="text-3xl mt-4 mb-4 font-bold">
             Electro Gastrology Therapy
           </h2>
