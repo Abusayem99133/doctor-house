@@ -1,16 +1,9 @@
-import {
-  CiClock2,
-  CiLocationArrow1,
-  CiLocationOff,
-  CiLocationOn,
-  CiMicrophoneOn,
-  CiPhone,
-} from "react-icons/ci";
+import { CiClock2, CiLocationOn } from "react-icons/ci";
 import { MdOutlinePhoneCallback } from "react-icons/md";
 
 const Status = () => {
   return (
-    <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-12">
+    <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-32">
       <div className="bg-green-950 flex items-center  rounded-xl justify-around">
         <div className="text-3xl text-white font-bold">
           <CiClock2 />

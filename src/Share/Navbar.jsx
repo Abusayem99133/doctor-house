@@ -22,7 +22,11 @@ const Navbar = () => {
       <div className="navbar  max-w-screen-xl  fixed z-10 bg-opacity-50 bg-black">
         <div className="navbar-start">
           <div className="dropdown">
-            <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
+            <div
+              tabIndex={0}
+              role="button"
+              className="btn bg-slate-200 lg:hidden"
+            >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 className="h-5 w-5"
@@ -45,7 +49,9 @@ const Navbar = () => {
               {navItems}
             </ul>
           </div>
-          <a className="btn btn-ghost text-xl text-white">Doctor-House</a>
+          <a className="btn btn-ghost text-xl text-white bg-gradient-to-r from-orange-300  to-orange-600">
+            Doctor-House
+          </a>
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1 text-white">{navItems}</ul>

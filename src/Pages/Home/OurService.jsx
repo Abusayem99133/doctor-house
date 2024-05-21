@@ -2,7 +2,7 @@ import doctor from "../../assets/image/pexels-cottonbro-5722162.jpg";
 const OurService = () => {
   return (
     <div>
-      <div className=" md:flex justify-between mt-12 gap-16">
+      <div className=" md:flex justify-between mt-32 gap-16">
         <div>
           <img className="rounded-2xl" src={doctor} alt="" />
         </div>
@@ -14,9 +14,10 @@ const OurService = () => {
             quae ab illo inve ntore veritatis et quasi architecto beatae vitae
             dicta sunt explicabo.
           </p>
-          <div className="flex mt-4">
+          <div className=" mt-4 ">
             <button className="btn bg-orange-500">Cavity Protection</button>
             <button className="btn bg-orange-500">Cosmetic Dentist </button>
+            <br />
             <button className="btn bg-orange-500">Oral Surgery</button>
           </div>
           <img src="" alt="" />
