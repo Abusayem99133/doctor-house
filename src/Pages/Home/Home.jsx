@@ -3,6 +3,7 @@ import ContactUs from "./ContactUs";
 import ExpertDoctors from "./ExpertDoctors";
 import OurPatients from "./OurPatients";
 import OurService from "./OurService";
+import Status from "./Status";
 
 const Home = () => {
   return (
@@ -12,6 +13,9 @@ const Home = () => {
       </div>
       <div>
         <OurService></OurService>
+      </div>
+      <div>
+        <Status></Status>
       </div>
       <div>
         <OurPatients></OurPatients>
